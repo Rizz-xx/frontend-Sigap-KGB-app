@@ -17,7 +17,7 @@ export function middleware(request: NextRequest) {
 
   // Example of redirecting root to login
   if (pathname === '/') {
-    return NextResponse.redirect(new URL('/login', request.url));
+    return NextResponse.redirect(new URL('/dashboard', request.url));
   }
 
   return NextResponse.next();
