@@ -27,8 +27,8 @@ export default function SearchBar() {
         </select>
 
         <button className="flex items-center gap-2 rounded-xl bg-blue-600 px-5 py-3 text-white transition hover:bg-blue-700">
-          <Plus size={20} />
-          Tambah Pegawai
+          <Search size={20} />
+          Cari pegawai
         </button>
       </div>
     </div>
